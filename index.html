@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Heilo using Bootstrap</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  </head>
+  <body>
+
+
+    <div class="container-fluid my-container">
+      <nav class="navbar navbar-default " id="myNavigation">
+        <div class="navbar-header">
+          <div class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+            <div class="icon-bar-left">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </div>
+            <span class="icon-right">Menu</span>
+          </div>
+          <a href="#" class="navbar-brand">Heilo <span class="decor">by Aasim</span></a>
+        </div>
+        <div class=" collapse myCollapse" id="mynavbar">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="">Home</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- carousel starts -->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1" ></li>
+          <li data-target="#myCarousel" data-slide-to="2" ></li>
+          <li data-target="#myCarousel" data-slide-to="3" ></li>
+          <li data-target="#myCarousel" data-slide-to="4" ></li>
+        </ol>
+        <div class="carousel-inner" >
+          <div class="item active"></div>
+          <div class="item item-2"></div>
+          <div class="item item-3"></div>
+          <div class="item item-4"></div>
+          <div class="item item-5"></div>
+        </div>
+      </div>
+      <div class="banner">
+        <p>A FREE RESPONSIVE WEB SITE TEMPLATE BY <span class="decor"> MD AASIM</span></p>
+        <hr>
+        <h1>Heilo</h1>
+      </div>
+    </div>
+
+
+    <!-- two section strats -->
+    <div class="container two-section">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="left">
+            <img src="img/pic02.jpg" alt="">
+            <h6>MAECENAS SAPIEN FEUGIAT EX PURUS</h6>
+            <hr>
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Reiciendis, aliquid placeat est inventore dolores fugiat 
+                aperiam in at esse blanditiis ipsa corrupti earum itaque iste? 
+                Eligendi quasi vero consequatur totam?
+            </p>
+            <button>Learn More</button>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-md-offset-2 mar-top">
+          <div class="right">
+            <img src="img/pic03.jpg" alt="">
+            <h6>MATTIS ELEMENTUM SAPIEN PRETIUM TELLUS</h6>
+            <hr>
+            <h3>Vestibulum sit amet</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Reiciendis, aliquid placeat est inventore dolores fugiat 
+                aperiam in at esse blanditiis ipsa corrupti earum itaque iste? 
+                Eligendi quasi vero consequatur totam?
+            </p>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- two section ends -->
+
+    <!-- full-quote section starts-->
+
+    <div class="container-fluid  full-quote">
+      <p>NAM VEL ANTE SIT AMET LIBERO SCELERISQUE FACILISIS ELEIFEND VITAE URNA</p>
+      <hr>
+      <h5>Morbi maximus justo</h5>
+    </div>
+
+    <!-- full-quote section ends -->
+
+    <!-- Gallery section stars -->
+
+    <div class="container" id="gallery">
+      <div class="row custom">
+        <div class="col-lg-12 ">
+          <p>NAM VEL ANTE SIT AMET LIBERO SCELERISQUE FACILISIS ELEIFEND VITAE URNA</p>
+          <hr>
+          <h5>Morbi maximus justo</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/pic01.jpg" alt="">
+        </div>
+        
+        <div class="col-md-6 ">
+          <img src="img/pic02.jpg" alt="" class="left">
+        </div>
+        
+        <div class="col-md-6">
+          <img src="img/pic03.jpg" alt="">
+        </div>
+        
+        <div class="col-md-6 ">
+          <img src="img/pic04.jpg" alt="" class="left">
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Gallery section ends -->
+
+
+    <!-- footer starts -->
+
+    <!-- footer starts -->
+    <div class="container-fluid footer">
+      <a href="#"><span class="fa fa-twitter"></span></a>
+      <a href="#"><span class="fa fa-facebook"></span></a>
+      <a href="#"><span class="fa fa-instagram"></span></a>
+      <a href="#"><span class="fa fa-envelope-o"></span></a>
+
+      <p>&copy; All rights reserved. Designed by Md Aasim </p>
+  </div>
+  <!-- footer ends -->
+
+    <!-- footer ends -->
+
+
+
+
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

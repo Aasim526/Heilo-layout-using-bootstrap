@@ -1,0 +1,303 @@
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdfdf;
+}
+
+/* navigation starts */
+#myNavigation{
+    background: none;
+    border: none;
+    position: relative;
+    top: 0;
+    z-index: 20;
+}
+#myNavigation .navbar-toggle{
+    display: block;
+    border: 0;
+    background: none;
+}
+#myNavigation .navbar-toggle:hover{
+    cursor: pointer;
+}
+#myNavigation .navbar-header{
+    float: none;
+    width: 100%;
+}
+#myNavigation .icon-bar{
+    background-color: #fff;
+}
+#myNavigation .icon-bar-right, #myNavigation .navbar-brand, #myNavigation .navbar-nav li a{
+    color: #fff;
+}
+#myNavigation .navbar-toggle .icon-bar-left{
+    float: left;
+}
+/* #myNavigation .navbar-right{
+    float: left !important;
+} */
+#myNavigation .navbar-toggle .icon-right{
+    float: right;
+    position: relative;
+    top: -3px;
+    padding-left: 10px;
+}
+.navbar-header .decor, .banner .decor{
+    color: rgb(180, 180, 180);
+    font-weight: 100;
+}
+
+/* navigation ends */
+
+/* carousel starts */
+
+.my-container{
+    padding: 0;
+    color: #fff;
+    height: 100vh;
+}
+
+#myCarousel{
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+.item{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/slide01.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.item-2{
+    background-image: url("../img/slide02.jpg");
+}
+.item-3{
+    background-image: url("../img/slide03.jpg");
+}
+.item-4{
+    background-image: url("../img/slide04.jpg");
+}
+.item-5{
+    background-image: url("../img/slide05.jpg");
+}
+
+/* carousel ends */
+
+/* banner starts */
+
+.banner{
+    width: 60%;
+    position: relative;
+    top: 25%;
+    margin: 0 auto ;
+    padding: 0 20px;
+    text-align: center;
+    z-index: 20;
+}
+.banner hr{
+    width: 40%;
+}
+.banner h1{
+    font-size: 120px;
+    font-weight: 300;
+}
+.banner p{
+    font-weight: 200;
+    letter-spacing: 4px;
+    padding-bottom: 15px;
+}
+/* banner ends */
+
+/* two-section starts */
+
+.two-section{
+    position: relative;
+    z-index: 300;
+    color: #000;
+    padding: 100px 0;
+}
+.two-section img{
+    width: 100%;
+}
+.two-section .left, .two-section .right{
+    background-color: #fff;
+    text-align: center;
+}
+.two-section h6{
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: gray;
+    margin-top: 20px;
+}
+.two-section hr{
+    width: 40%;
+    margin:0 auto;
+    margin-top: 15px;
+}
+.two-section h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+.two-section p{
+    text-align: left;
+    color: gray;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 30px;
+    font-weight: 200;
+}
+.two-section button{
+    width: 120px;
+    height: 40px;
+    background: none;
+    color: gray;
+    border: 1px solid gray;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+/* two-section ends */
+
+/* full quote starts */
+
+.full-quote{
+    text-align: center;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 100px 0;
+}
+.full-quote p, #gallery p{
+    letter-spacing: 4px;
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+}
+.full-quote hr, #gallery hr{
+    width: 35%;
+    border-color: rgb(161, 161, 161);
+}
+.full-quote h5, #gallery h5{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+/* full quote ends */
+
+/* gallery starts */
+.custom{
+    text-align: center;
+    padding: 100px 0;
+}
+#gallery{
+    padding-bottom: 50px;
+}
+
+#gallery img{
+    width: 95%;
+    border: 10px solid #fff;
+    margin-bottom: 10%;
+}
+#gallery .left{
+    margin-left: 5%;
+}
+
+/* gallery ends */
+
+/* footer starts */
+
+.footer{
+    text-align: center;
+    background-color: #000;
+    color: gray;
+    padding: 80px 0;
+}
+.footer .fa{
+    font-size: 28px;
+    padding: 12px;
+    color: gray;
+}
+
+/* footer ends */
+
+/* media query starts */
+
+@media only screen and (max-width:768px){
+    /* navigation toggle starts */
+    #myNavigation .navbar-left{
+        padding-left: 30px;
+        background-color: #fff;
+        z-index: 20;
+    }
+    #myNavigation .navbar-nav li a{
+        color: #000;
+    }
+
+    /* navigation toggle ends */
+
+    /* banner starts */
+    .banner{
+        padding: 0;
+    }
+    .banner h1{
+        font-size: 60px;
+    }
+    .banner p{
+        font-size: 10px;
+    }
+    /* banner ends */
+
+    /* quote section starts */
+    .full-quote h5, #gallery h5 {
+        font-size: 20px;
+    }
+    .full-quote p, #gallery p {
+        font-size: 10px;
+    }
+    /* quote section ends */
+}
+
+@media only screen and (max-width:991px){
+    #gallery img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 5%;
+    }
+    #gallery .left{
+        margin-left: 0;
+        
+    }
+    .custom{
+        padding: 50px 0;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+    .footer .fa{
+        font-size: 16px;
+        padding: 8px;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width:991px){
+    .mar-top{
+        margin-top: 10%;
+    }
+}
+
+/* media query ends */
