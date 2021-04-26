@@ -232,11 +232,12 @@ body{
     /* navigation toggle starts */
     #myNavigation .navbar-left{
         padding-left: 30px;
-        background-color: #fff;
+        background-color: rgb(70, 76, 110);
+        opacity: 0.6;
         z-index: 20;
     }
     #myNavigation .navbar-nav li a{
-        color: #000;
+        color: #fff;
     }
 
     /* navigation toggle ends */
