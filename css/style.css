@@ -5,7 +5,7 @@ html,body{
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #dfdfdf;
-    width: 100vw;
+    width: 100%;
 }
 
 /* navigation starts */
@@ -26,7 +26,7 @@ body{
 }
 #myNavigation .navbar-header{
     float: none;
-    width: 100vw;
+    width: 100%;
 }
 #myNavigation .icon-bar{
     background-color: #fff;
@@ -65,7 +65,7 @@ body{
     z-index: 10;
 }
 .item{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url("../img/slide01.jpg");
     background-size: cover;
