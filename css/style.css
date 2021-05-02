@@ -1,11 +1,9 @@
 html,body{
     scroll-behavior: smooth;
-    width: 100vw;
 }
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #dfdfdf;
-    width: 100%;
 }
 
 /* navigation starts */
@@ -26,7 +24,6 @@ body{
 }
 #myNavigation .navbar-header{
     float: none;
-    width: 100%;
 }
 #myNavigation .icon-bar{
     background-color: #fff;
@@ -57,9 +54,11 @@ body{
     padding: 0;
     color: #fff;
     height: 100vh;
+    position: relative;
 }
 
 #myCarousel{
+    width: 100%;
     position: absolute;
     top: 0;
     z-index: 10;
