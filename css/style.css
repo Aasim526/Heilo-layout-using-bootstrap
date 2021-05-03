@@ -202,6 +202,7 @@ body{
     width: 95%;
     border: 10px solid #fff;
     margin-bottom: 10%;
+    cursor: pointer;
 }
 #gallery .left{
     margin-left: 5%;
